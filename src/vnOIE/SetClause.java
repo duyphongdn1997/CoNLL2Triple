@@ -448,19 +448,19 @@ public class SetClause {
 
 		} // if isSentence
 		
-		if (countVerb>0){
-			String VerbNumber = String.valueOf(countVerb);
-			
-			VerbNumber = "Total verb number of a sentence: "+"\t\t" +VerbNumber;
-			clauseTypeList.add(VerbNumber);
-		}
-		if (countClause>0){
-			
-			String clauseNumber = String.valueOf(countClause);
-			
-			clauseNumber = "Total clause number of a sentence: "+"\t\t\t"+clauseNumber;
-			clauseTypeList.add(clauseNumber);	
-		}
+//		if (countVerb>0){
+//			String VerbNumber = String.valueOf(countVerb);
+//
+//			VerbNumber = "Total verb number of a sentence: "+"\t\t" +VerbNumber;
+//			clauseTypeList.add(VerbNumber);
+//		}
+//		if (countClause>0){
+//
+//			String clauseNumber = String.valueOf(countClause);
+//
+//			clauseNumber = "Total clause number of a sentence: "+"\t\t\t"+clauseNumber;
+//			clauseTypeList.add(clauseNumber);
+//		}
 		
 		return clauseTypeList;
 		
